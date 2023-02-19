@@ -1,12 +1,13 @@
-.listContainer{
-    margin: 15px;
-}
+ .Container{
+     margin: 0;
+     padding: 0; 
+} 
 
 .property-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 15px;
-    margin-left: 2.4rem;
+    margin-left: 4.6rem;
   }
   .property-list-item {
     display: flex;
@@ -47,4 +48,13 @@
     font-size: 20px;
     font-weight: 600;
     margin: 10px 0;
+  }
+  .filter-container{
+    background-color: #fff6f4;
+    padding: 2rem 2rem;
+}
+  
+  .filter_container{
+    margin: 3rem; 
+    
   }
