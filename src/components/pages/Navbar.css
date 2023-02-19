@@ -1,0 +1,56 @@
+.navigation-bar{
+    background-color: #fff6f4;
+    padding: 1rem 2rem;
+}
+#navigation-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-icon a{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+   
+}
+.navigation-list{
+    display: flex;
+    list-style: none;
+    gap: 3.4rem;
+}
+.navigation-list a{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #020202;
+    text-decoration: none;
+}
+
+.navigation-list a:hover {
+    color: blue;
+   
+}
+
+.login-buttons{
+    display: flex;
+    height: 30px;
+    gap: 7px;
+    
+}
+ .login-btn , .signUp-btn{
+    color: blueviolet;
+    cursor: pointer;
+    background-color: #fff6f4;
+    border: 1px solid lightblue;
+    border-radius: 5px;
+}
+.login-btn:hover{
+    background-color: blueviolet;
+    color: #fff6f4;
+    transition: .2s;
+}
+.signUp-btn:hover{
+    background-color: blueviolet;
+    color: #fff6f4;
+    transition: .2s;
+}

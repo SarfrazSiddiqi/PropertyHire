@@ -1,0 +1,50 @@
+.listContainer{
+    margin: 15px;
+}
+
+.property-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    margin-left: 2.4rem;
+  }
+  .property-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    border-radius:0 0 15px 15px;
+    padding: 10px;
+  }
+  .property-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+.property-image-container:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.5) 0px 8px 16px -8px;
+    transition: 0.2s ease-in
+}
+.property-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    gap: 28px;
+    cursor: pointer;
+  }
+  
+  .property-price, .property-location {
+    font-weight: bold;
+  }
+  
+  .property-size {
+    color: gray;
+  }
+  .property-name{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+  }
